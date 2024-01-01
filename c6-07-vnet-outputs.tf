@@ -23,7 +23,7 @@ output "web_subnet_id" {
   value = azurerm_subnet.websubnet.id
 }
 
-# Network Security Outputs
+# Network Security Outputsss
 ## Web Subnet NSG Name 
 output "web_subnet_nsg_name" {
   description = "WebTier Subnet NSG Name"
