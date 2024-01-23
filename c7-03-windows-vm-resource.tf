@@ -2,7 +2,7 @@
 #Meta-Argument for-each - Terraform function lookups()
 #element([1,2,3], 0) -> 1
 #element([1,2,3], 1) -> 2
-
+#element
 resource "azurerm_windows_virtual_machine" "vm" {
     for_each = var.web_windows_instance_count
     name                = "${local.resource_name_prefix}-web-windows-${each.key}"
